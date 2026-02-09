@@ -1,0 +1,28 @@
+# Data
+data/
+cleaned_data/
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+*.pickle
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Documentation artifacts (keep if you want, ignore if temporary)
+# keeping generated reports for now
