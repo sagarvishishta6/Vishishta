@@ -1,16 +1,18 @@
+
 # Data
 data/
-cleaned_data/
 *.csv
 *.xlsx
 *.parquet
-*.pkl
-*.pickle
+*.zip
+
+# Local backups
+_local_backup/
+reset_repo.py
 
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
 venv/
 env/
 .env
@@ -19,10 +21,4 @@ env/
 # IDE
 .vscode/
 .idea/
-
-# System
 .DS_Store
-Thumbs.db
-
-# Documentation artifacts (keep if you want, ignore if temporary)
-# keeping generated reports for now
